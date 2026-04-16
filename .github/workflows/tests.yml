@@ -1,6 +1,5 @@
 name: Run Zevoir Tests
 
-# Trigger: run this workflow on every push and pull request
 on:
   push:
     branches: [ main, master ]
@@ -12,26 +11,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Check out your code
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      # Step 2: Set up Python
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      # Step 3: Install dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pytest flask numpy
+          pip install pytest flask numpy sentence-transformers
 
-      # Step 4: Run pytest
-      # We only run test_rag.py here because test_app.py needs
-      # the full app context. test_rag.py tests pure functions
-      # and runs perfectly in CI without any API keys.
       - name: Run tests
         run: |
           pytest tests/test_rag.py -v
