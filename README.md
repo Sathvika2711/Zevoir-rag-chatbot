@@ -140,12 +140,6 @@ See `.github/workflows/tests.yml`
 
 ---
 
-## Interview Notes
-
-> *"I built a RAG-powered chatbot for Zevoir Technologies using Flask as the REST API backend and Claude as the LLM. The system chunks business documents, converts them to embeddings using sentence-transformers, and retrieves the most relevant chunks using cosine similarity before passing them to Claude as context. This prevents hallucination because Claude is constrained to answer only from verified documents. I chose Flask over FastAPI because this was a prototype — FastAPI would be the upgrade path for production scale."*
-
----
-
 ## Author
 
 **Sathvika Mannepally**  
