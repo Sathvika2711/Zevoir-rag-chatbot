@@ -1,0 +1,52 @@
+ZEVOIR TECHNOLOGIES — SUPPORT INFORMATION
+
+CONTACT AND SUPPORT
+Email: support@zevoir.com.au
+Phone: 1800-ZEVOIR (business hours: Mon-Fri 9am-5pm AEST)
+Live chat: available on our website and through this chatbot
+Response time: within 24 hours on business days
+
+ACCOUNT ISSUES
+If you cannot log in to your Zevoir account:
+1. Try the Forgot Password option on the login page
+2. Check your email for a reset link (check spam folder too)
+3. Reset links expire after 15 minutes — request a new one if needed
+4. If your account is locked after multiple failed attempts, contact support
+5. For urgent account issues call 1800-ZEVOIR
+
+OTP AND VERIFICATION
+If you did not receive your OTP (one-time password):
+1. Wait 30 seconds — OTPs can sometimes be delayed
+2. Check you entered the correct phone number on your account
+3. Check your spam/junk folder if it was sent by email
+4. Request a new OTP using the Resend button
+5. If the issue continues, contact our support team
+
+ORDER AND PROJECT STATUS
+To check the status of your project or order:
+1. Log in to your Zevoir client portal
+2. Go to Projects or Orders section
+3. Each project shows current status: Scoping, In Progress, Review, Complete
+4. You will receive email updates at each milestone
+5. For urgent queries contact your dedicated account manager
+
+TECHNICAL SUPPORT
+For technical issues with Zevoir products:
+1. Check our documentation at docs.zevoir.com.au
+2. Search our FAQ for common issues
+3. Submit a support ticket through the client portal
+4. For critical issues (system down) call 1800-ZEVOIR immediately
+
+REFUNDS AND CANCELLATIONS
+Refund policy:
+- Projects cancelled before work begins: full refund of deposit
+- Projects cancelled after work begins: refund of unused portion
+- Monthly retainers: cancel anytime with 30 days notice
+- Digital products delivered: no refund once delivered and accepted
+
+ESCALATION
+If your issue is not resolved by our support team:
+1. Ask to speak with a senior support specialist
+2. Email escalations@zevoir.com.au
+3. Request a callback from your account manager
+We aim to resolve all escalations within 48 hours.

@@ -1,0 +1,37 @@
+ZEVOIR TECHNOLOGIES — FREQUENTLY ASKED QUESTIONS
+
+Q: What does Zevoir Technologies do?
+A: Zevoir Technologies is a Sydney-based AI and technology company. We build AI chatbots, data analytics dashboards, web applications, and cloud solutions to help businesses grow and automate their operations.
+
+Q: Where is Zevoir Technologies located?
+A: Zevoir Technologies is based in Sydney, Australia. We work with clients across Australia and internationally.
+
+Q: How long does it take to build a chatbot?
+A: A basic chatbot takes 1-2 weeks. A full RAG-powered chatbot with custom documents takes 2-4 weeks. Enterprise solutions are scoped individually.
+
+Q: Can you build a chatbot for my specific business?
+A: Yes. All our chatbots are custom-built for each client. We train them on your own documents, FAQs, product information, and business data.
+
+Q: What AI models do you use?
+A: We primarily use Claude by Anthropic and GPT-4 by OpenAI. We recommend the best model based on your use case, budget, and data privacy requirements.
+
+Q: What is RAG?
+A: RAG stands for Retrieval-Augmented Generation. Instead of relying on the AI's general knowledge, RAG searches your own documents and feeds the relevant information to the AI before it answers. This means answers are grounded in your actual business data, not guesswork.
+
+Q: Do I need technical knowledge to use your products?
+A: No. We handle all the technical setup and provide easy-to-use interfaces. We also provide training and documentation for your team.
+
+Q: Can I see a demo before committing?
+A: Yes! We offer free demos for all our products. Contact us to schedule one.
+
+Q: How do I get started with Zevoir?
+A: You can get started by contacting us through our website, emailing our team, or using this chatbot to book a free demo. Our team will get back to you within 24 hours.
+
+Q: Do you offer ongoing support?
+A: Yes. All our products come with 3 months of free support after launch. We also offer ongoing maintenance packages.
+
+Q: Can you integrate with our existing tools?
+A: Yes. We integrate with Slack, Gmail, Salesforce, HubSpot, and most major business tools via APIs.
+
+Q: Is my data safe with Zevoir?
+A: Yes. We follow strict data privacy practices and are GDPR compliant. Your data is never used to train external AI models.

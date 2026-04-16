@@ -1,0 +1,43 @@
+ZEVOIR TECHNOLOGIES — SERVICES
+
+Zevoir Technologies is an Australian AI and technology company based in Sydney.
+We help businesses grow using cutting-edge AI, data, and web technology.
+
+AI CHATBOT DEVELOPMENT
+Zevoir builds custom AI chatbots for businesses of all sizes.
+Our chatbots are powered by large language models like Claude and GPT-4.
+We use RAG (Retrieval-Augmented Generation) to make chatbots answer from your own documents.
+Chatbots can be embedded on any website or app.
+Use cases include: customer support, lead capture, internal knowledge base, appointment booking.
+Chatbots are available 24/7 and handle thousands of conversations simultaneously.
+
+AI AUTOMATION
+We automate repetitive business tasks using AI.
+Examples: automated email responses, document processing, data entry, report generation.
+AI automation saves businesses an average of 20-30 hours per week.
+We integrate with existing tools like Slack, Gmail, CRMs, and ERPs.
+
+DATA ANALYTICS AND DASHBOARDS
+Zevoir builds interactive dashboards showing real-time business insights.
+We connect to your existing databases and data sources.
+Dashboards include charts, KPIs, trend analysis, and predictive analytics.
+We work with Power BI, Tableau, Python, and custom solutions.
+Data analytics helps businesses make faster, smarter decisions.
+
+WEB AND APP DEVELOPMENT
+We build professional websites and web applications.
+Technologies used: React, Python, FastAPI, Node.js, PostgreSQL.
+All websites are mobile-responsive and fast-loading.
+We also build e-commerce platforms and customer portals.
+
+CLOUD SOLUTIONS
+Zevoir helps businesses move to the cloud.
+We work with AWS, Azure, and Google Cloud.
+Services include: cloud architecture, deployment, security hardening, cost optimisation.
+We set up CI/CD pipelines for automated deployments.
+
+AI SECURITY AND GOVERNANCE
+We help businesses implement AI safely and responsibly.
+Services include: prompt injection defence, AI audit trails, compliance frameworks.
+Critical for regulated industries like finance, healthcare, legal, and government.
+We assess AI risks and recommend controls aligned with OWASP and ISO standards.

@@ -1,0 +1,53 @@
+ZEVOIR TECHNOLOGIES — ABOUT US
+
+COMPANY OVERVIEW
+Zevoir Technologies PTY LTD is an Australian technology company founded in Sydney.
+We specialise in artificial intelligence, data analytics, and web development.
+Our mission is to make enterprise-grade AI accessible to businesses of all sizes.
+We believe every business deserves smart, affordable, and reliable technology.
+
+OUR TEAM
+Zevoir is built by a team of AI engineers, data scientists, and web developers.
+Our team has experience working with companies across finance, healthcare, retail, and government.
+We stay at the cutting edge of AI research and apply it to real business problems.
+
+OUR APPROACH
+We start every project with a free consultation to understand your specific needs.
+We build custom solutions — not off-the-shelf products.
+We use proven technologies: Claude AI, Python, FastAPI, React, PostgreSQL, AWS.
+We deliver working products fast, typically within 2-6 weeks.
+We provide training and handover so your team can manage the product independently.
+
+OUR VALUES
+Transparency: we explain everything clearly — no technical jargon
+Quality: we test thoroughly before delivery
+Security: we follow best practices for data privacy and AI safety
+Partnership: we treat every client as a long-term partner
+
+INDUSTRIES WE SERVE
+Finance and banking
+Healthcare and medical
+Legal and compliance
+Retail and e-commerce
+Education and training
+Government and public sector
+Startups and scale-ups
+
+WHY CHOOSE ZEVOIR
+We are Sydney-based — easy to meet, same timezone, no overseas delays.
+We have delivered over 50 AI and technology projects.
+Our clients report average efficiency gains of 30% after implementing our solutions.
+We offer honest pricing with no hidden costs.
+We provide 3 months of free support after every project.
+
+AWARDS AND RECOGNITION
+Zevoir has been recognised as one of Sydney's emerging technology companies.
+Our AI chatbot platform won the 2024 NSW Innovation Award for SME Technology.
+We are a certified partner of Anthropic (makers of Claude AI).
+
+CONTACT
+Website: www.zevoir.com.au
+Email: hello@zevoir.com.au
+Phone: 1800-ZEVOIR
+Address: Sydney, NSW, Australia
+LinkedIn: linkedin.com/company/zevoir-technologies

@@ -1,0 +1,48 @@
+ZEVOIR TECHNOLOGIES — PRICING
+
+All prices are in AUD and are starting prices. Final pricing depends on project scope and complexity.
+We offer free consultations and custom quotes for all projects.
+
+AI CHATBOT DEVELOPMENT
+Basic chatbot (keyword-based, no AI):     from $1,500
+AI chatbot (Claude/GPT powered):          from $3,000
+RAG chatbot (answers from your documents): from $5,000
+Enterprise chatbot (custom, full support): custom quote
+
+DATA ANALYTICS AND DASHBOARDS
+Basic dashboard (up to 5 charts):         from $2,000
+Advanced dashboard (real-time, custom):   from $4,500
+Full analytics platform:                  custom quote
+
+WEB AND APP DEVELOPMENT
+Business website (up to 10 pages):        from $1,500
+Web application (custom features):        from $4,000
+E-commerce platform:                      from $5,000
+Mobile app:                               from $8,000
+
+CLOUD SOLUTIONS
+Cloud migration and setup:                from $2,500
+CI/CD pipeline setup:                     from $1,500
+Ongoing cloud management (monthly):       from $500/month
+
+AI SECURITY AND GOVERNANCE
+AI risk assessment:                       from $2,000
+Full AI governance framework:             from $5,000
+Ongoing compliance monitoring (monthly):  from $800/month
+
+SUPPORT AND MAINTENANCE
+All products include 3 months free support after launch.
+Extended support packages:
+  Basic (email support):                  $200/month
+  Standard (email + phone):               $500/month
+  Premium (dedicated account manager):    $1,200/month
+
+FREE OFFERINGS
+Free 30-minute consultation: available for all prospects
+Free demo: available for all our products
+Free initial scoping call: we assess your needs before quoting
+
+PAYMENT TERMS
+We typically work on a 50% upfront, 50% on delivery basis.
+Monthly retainers are billed at the start of each month.
+We accept bank transfer, credit card, and PayPal.
