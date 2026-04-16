@@ -61,7 +61,7 @@ def get_memory(sid):
 # ── TIME GREETING ─────────────────────────────────────────────
 def get_time_greeting():
     hour = datetime.now().hour
-    if 5 <= hour < 12:   return "Good morning! ☀️"
+    if 5 <= hour < 12:    return "Good morning! ☀️"
     elif 12 <= hour < 17: return "Good afternoon! 🌤️"
     elif 17 <= hour < 21: return "Good evening! 🌙"
     else:                 return "Hey, night owl! 🦉"
@@ -111,14 +111,18 @@ def expand_short_forms(text):
 # ── FUZZY MATCH (flows only) ──────────────────────────────────
 def fuzzy_match_flow(user_input, keywords, threshold=0.82):
     lower = user_input.lower()
-    words = lower.split()
     for kw in keywords:
+        # Direct substring match for the full keyword
         if kw.lower() in lower:
             return True
-        for uw in words:
-            for kw_w in kw.lower().split():
-                if abs(len(uw)-len(kw_w)) <= 2:
-                    score = SequenceMatcher(None, uw, kw_w).ratio()
+        # Fuzzy match only for single-word keywords
+        # Multi-word keywords like "see you" or "take care" must match exactly above
+        if ' ' not in kw:
+            for uw in lower.split():
+                uw_clean = uw.strip(".,!?;:'\"")
+                kw_clean = kw.lower()
+                if abs(len(uw_clean) - len(kw_clean)) <= 2:
+                    score = SequenceMatcher(None, uw_clean, kw_clean).ratio()
                     if score >= threshold:
                         return True
     return False
@@ -205,7 +209,6 @@ def check_common_sense(message):
     Real questions like "What is your pricing?" are longer → skip to RAG.
     Casual phrases like "thanks", "ok", "how are you" → match here.
     """
-    # KEY FIX: skip if message is longer than 4 words
     if len(message.strip().split()) > 4:
         return None
 
@@ -282,15 +285,15 @@ SUGGESTIONS = {
 
 def get_suggestions(message, source):
     lower = message.lower()
-    if source == "greeting":                      return SUGGESTIONS["greeting"]
-    if "pric" in lower or "cost" in lower:        return SUGGESTIONS["pricing"]
-    if "chatbot" in lower or "bot" in lower:      return SUGGESTIONS["chatbot"]
-    if "demo" in lower:                           return SUGGESTIONS["demo"]
-    if "support" in lower or "help" in lower:     return SUGGESTIONS["support"]
-    if "rag" in lower:                            return SUGGESTIONS["rag"]
+    if source == "greeting":                        return SUGGESTIONS["greeting"]
+    if "pric" in lower or "cost" in lower:          return SUGGESTIONS["pricing"]
+    if "chatbot" in lower or "bot" in lower:        return SUGGESTIONS["chatbot"]
+    if "demo" in lower:                             return SUGGESTIONS["demo"]
+    if "support" in lower or "help" in lower:       return SUGGESTIONS["support"]
+    if "rag" in lower:                              return SUGGESTIONS["rag"]
     if "analytic" in lower or "dashboard" in lower: return SUGGESTIONS["analytics"]
-    if "service" in lower:                        return SUGGESTIONS["services"]
-    if source == "todo":                          return SUGGESTIONS["todo"]
+    if "service" in lower:                          return SUGGESTIONS["services"]
+    if source == "todo":                            return SUGGESTIONS["todo"]
     return SUGGESTIONS["default"]
 
 
@@ -308,7 +311,7 @@ CONVERSATION_FLOWS = [
     },
     {
         "type":"goodbye",
-        "keywords":["bye","goodbye","see you","take care","see ya","cya","ttyl"],
+        "keywords":["bye","goodbye","see you later","take care","see ya","cya","ttyl","farewell"],
         "responses":[
             "Thank you for visiting! 👋\nHave a wonderful day.\n\n— Zevoir Support Team",
             "Goodbye! 😊 It was great chatting with you! Come back anytime.",
